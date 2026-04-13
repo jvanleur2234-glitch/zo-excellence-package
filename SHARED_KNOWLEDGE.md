@@ -63,3 +63,22 @@
 
 ---
 *Last updated: 2026-04-13 by Zo (this Zo)*
+
+---
+## Repo Added 2026-04-13
+
+### DearVa/Everywhere — Context-Aware Desktop AI
+- **URL:** https://github.com/DearVa/Everywhere
+- **Stars:** 5.8K
+- **License:** MIT
+- **What it is:** Desktop AI assistant that sees your screen. Press a shortcut anywhere, ask it anything about what's on screen. Supports OpenAI, Claude, Gemini, DeepSeek, Ollama + MCP tools.
+- **Platforms:** Windows ✅, macOS ✅, Linux 🚧 (coming soon)
+- **Tech:** Avalonia UI (.NET cross-platform)
+- **Commercial use:** YES (MIT)
+- **Why it matters for Solomon OS:** 
+  - Desktop equivalent of browser-use for desktop apps
+  - Could power "Clicky" — the agent that watches Jack do something once and learns the workflow
+  - Integrate INTO JackConnect as the screen-watching layer
+  - Zo could offer "desktop AI employee" as a tier above browser-only
+- **Status:** NOT YET FORKED — needs fork + test
+- **Action:** Fork it, study the Avalonia MCP integration pattern, build desktop automation skill for Hermes
