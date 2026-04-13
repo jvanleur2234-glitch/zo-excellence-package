@@ -82,3 +82,14 @@
   - Zo could offer "desktop AI employee" as a tier above browser-only
 - **Status:** NOT YET FORKED — needs fork + test
 - **Action:** Fork it, study the Avalonia MCP integration pattern, build desktop automation skill for Hermes
+
+---
+
+## RD Queue Cleared — April 13
+
+All queued repos analyzed and pushed to `brain/RD_REPORTS/` on zo-excellence-package GitHub:
+
+- **MateClaw** → SKILL. Extract into Solomon OS: (1) nightly memory consolidation agent (dream job), (2) knowledge digestion pipeline for solomon-vault/raw/, (3) public skill packaging format compatible with agentskills.io, (4) tool approval queue for dangerous ops. Do NOT port to Java.
+- **Personal AI Infrastructure** → SKILL. Study TELOS + 16 Principles + 9 Primitives as reference architecture for Solomon OS v2. Identity file structure and memory tiering are the strongest patterns. Cloned to /home/workspace/Personal_AI_Infrastructure
+- **Vibe-Skills** → SKIP. 340 skills for AI coding agents (Claude Code, Codex), not business automation. Exception: hive-mind-advanced for Solomon Bus multi-agent improvements.
+- **OPC Skills** → SKILL. SEO-geo, requesthunt, domain-hunter skills are directly applicable to AI Tools Affiliate Site (Real Estate). reddit and twitter scripts for demand research. Cloned at /home/.z/workspaces/.../opc-skills/
