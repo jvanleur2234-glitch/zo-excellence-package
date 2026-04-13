@@ -183,3 +183,7 @@ echo "2. Say 'load megaplan' to load full context"
 echo "3. Say 'log this to zo-foam: first memory from new Zo'"
 echo ""
 echo "Run 'list_rules' to verify rules loaded."
+
+# ===== EXTENSIONS: Already installed on this Zo =====
+# The following are already set up on this Zo — include in new Zo installs:
+
