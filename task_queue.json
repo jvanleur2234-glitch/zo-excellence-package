@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": "coord_test_1",
+      "name": "Zo1→Zo2 Coordination Test",
+      "description": "Zo2: Read brain/SERVICES.md from the repo, confirm you can see it, and write a 1-paragraph summary to /home/workspace/zo-excellence-package/coord_test_response.md. Then add a task to this queue marking coord_test_1 as completed.",
+      "type": "coordination",
+      "priority": "high",
+      "status": "pending",
+      "assignedTo": "zo2",
+      "addedAt": "2026-04-14T15:40:00Z"
+    }
+  ],
+  "lastUpdated": "2026-04-14T15:40:00Z",
+  "sessionSummary": "Coordination test started."
+}
