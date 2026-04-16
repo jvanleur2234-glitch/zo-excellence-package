@@ -112,6 +112,20 @@ Companies like Google, Microsoft, and OpenAI want to control AI by putting it on
 | deterministic-inference | jvanleur2234-glitch/deterministic-inference | TEE inference |
 | gbrain | jvanleur2234-glitch/gbrain | SKILLPACK patterns |
 | fakerfaker | jvanleur2234-glitch/fakerfaker | Scam detector |
+| **neko** | jvanleur2234-glitch/neko | **Remote browser (WebRTC, Solomon Air Layer 1)** |
+| **pashov/skills** | jvanleur2234-glitch/skills | **Skill format reference (SKILL.md + VERSION + refs)** |
+| **easy-invoice-pdf** | jvanleur2234-glitch/easy-invoice-pdf | **Invoice skill engine** |
+| **solomon-skills** | jvanleur2234-glitch/solomon-skills | **JackConnect skill library (6 skills live)** |
+
+## BONSAI INTEGRATION (April 16, 2026)
+
+**Live at:** https://josephv.zo.space/bonsai
+
+Bonsai 1.7B WebGPU page built — runs entirely in browser, 290MB, ~100 tok/sec. First local LLM in Solomon Air Layer 1.
+
+Bridge to JackConnect: `/home/workspace/jack-connect/bonsai-bridge/bridge.py` — Ollama-compatible API using ONNX Runtime Q4 (1.1GB). Ready to integrate when JackConnect ships.
+
+**Skill Store:** https://github.com/jvanleur2234-glitch/solomon-skills — 6 skills (CMA, Lead Qualifier, Market Intel, Client Nourisher, Invoice, Transaction Tracker)
 
 ---
 
