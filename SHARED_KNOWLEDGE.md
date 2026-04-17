@@ -41,10 +41,9 @@
 
 ---
 ## Key Decisions (Most Recent First)
-- 2026-04-13: Joseph = idea guy, Zo = builder/CEO. Full Paperclip Vision interview done.
-- 2026-04-13: VISION.md and CEO_BOOTSTRAP.md created and committed to GitHub
-- 2026-04-13: JackConnect live on https://josephv.zo.space/jackconnect with Stripe
+- 2026-04-17: Clearwing RD complete — autonomous vulnerability scanner + source-code hunter (214 stars, MIT). SKILL — add as security tier to AI staffing agency. Run clearwing doctor + test on small repo next.
 - 2026-04-16: VideoLingo bg worker spun up — installing on Zo for video transcription/dubbing service offering. Repo cloned at /home/.z/workspaces/con_d8HQ6zgAf8q434AC/VideoLingo/
+- 2026-04-13: Joseph = idea guy, Zo = builder/CEO. Full Paperclip Vision interview done.
 
 ---
 ## What Each Zo Should Know About Joseph
@@ -83,6 +82,19 @@
   - Zo could offer "desktop AI employee" as a tier above browser-only
 - **Status:** NOT YET FORKED — needs fork + test
 - **Action:** Fork it, study the Avalonia MCP integration pattern, build desktop automation skill for Hermes
+
+---
+
+## Repo Added 2026-04-17
+
+### Lazarus-AI/Clearwing — Autonomous Vulnerability Scanner + Source-Code Hunter
+- **URL:** https://github.com/Lazarus-AI/clearwing
+- **Stars:** 214
+- **License:** MIT
+- **What it is:** LangGraph-based dual-mode security tool. Network pentest agent (63 tools, Kali sandbox) + source-code hunter (parallel agents, auto-patch, SARIF output). Inspired by Anthropic's Glasswing.
+- **Use for Solomon OS:** Add as premium security tier to AI staffing agency. Source-code audits + CVE finding = high-value, explainable deliverable. LangGraph multi-agent architecture with evidence-level tracking is reference-worthy for Solomon Bus agent design.
+- **Status:** RD done, RD_REPORT in brain/RD_REPORTS/clearwing-lazarus-ai.md
+- **Action:** Run clearwing doctor + test on small open-source repo
 
 ---
 
