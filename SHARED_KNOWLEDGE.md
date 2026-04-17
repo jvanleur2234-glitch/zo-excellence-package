@@ -1,108 +1,34 @@
-# SHARED_KNOWLEDGE.md
-**Shared between all Zo instances for Joseph Vanleur**
-*Both Zos read this on startup and update it after every session*
+# Shared Knowledge — Zo Excellence Package
 
----
-## Current Priority (Updated 2026-04-13)
+**Last Updated:** 2026-04-17
 
-**#1 Client: Jack Vanleur — Real Estate AI Agent Suite**
-- Company: Vanleur Realty
-- Problem: More sales, more family time, less admin work
-- Product: JackConnect — 7 AI agents + Clicky automation
-- Tiers: Starter $99/mo, Professional $199/mo, Premium $299/mo, Enterprise $1,499/mo
-- Status: Proposal sent, waiting on response
-- Payment links: Ready on Stripe
+## Today's Session: JackConnect + Cabinet Integration
 
-**#2 Business: Solomon OS AI Staffing Platform**
-- Sell AI agents to businesses who want to run on subscriptions
-- Target: Real estate first, then any SMB
-- 3 paying clients = first milestone
+### What We Did
+1. Forked Cabinet (hilash/cabinet) and autoMate (yuruotong1/autoMate) into JackConnect
+2. Built 7 real estate agent templates for Cabinet's library:
+   - `superintendent-re` — Jack's daily AI coordinator (7 AM CT briefing)
+   - `prospector-re` — Lead scoring 1-10, outreach drafts
+   - `property-matchmaker-re` — Buyer/seller matching with commission math
+   - `investment-analyst-re` — CMA reports, cap rates, rental analysis
+   - `transaction-coordinator-re` — Deal tracking, deadlines, contingencies
+   - `client-nourisher-re` — Birthday/SOI/anniversary nurturing
+   - `market-intel-re` — Farm area monitoring, new listings, expireds
+3. Built 3 autoMate scripts for real estate desktop workflows
+4. Created full Cabinet integration spec
+5. Pushed to GitHub: https://github.com/jvanleur2234-glitch/jack-connect
 
----
-## The 7 Income Streams
-1. AI Employee Agents (SaaS subscriptions)
-2. Faceless YouTube (MoneyPrinterTurbo + affiliate)
-3. SEO Audits for businesses ($29)
-4. Shopify Store (dropshipping/print-on-demand)
-5. Social Media Management ($9/wk)
-6. Cold Email outreach ($19/campaign)
-7. Lead Generation ($15/lead list)
+### Key Insight
+Cabinet is 70% of what JackConnect was trying to build from scratch. The integration replaces:
+- Brain files → Cabinet KB with git history
+- Python cron scripts → Native Cabinet heartbeats
+- Watch Once capture → Watch Once → autoMate scripts → Cabinet agent learns
+- Separate zo.space pages → Embedded HTML apps in Cabinet
 
----
-## Jack's 7 Agents
-1. **LeadAgent** — Finds and qualifies new leads automatically
-2. **FollowUpAgent** — Never lets a lead go cold
-3. **ContentAgent** — Posts to social media every day
-4. **MarketReportAgent** — Sends monthly market updates to clients
-5. **ScheduleAgent** — Manages showing appointments and open houses
-6. **FAQAgent** — Answers common buyer/seller questions 24/7
-7. **AdminAgent** — Handles paperwork, contracts, and back-office tasks
-8. **Clicky** — Watches Jack do something once, records it, turns it into an automation
+### Video Reflection: King Solomon + Golem
+The King Solomon video (emet/truth principle, kill switch) maps directly to Solomon Air's mission: build AI infrastructure nobody can control or shut down. JackConnect is the application layer — AI that serves the human, not the other way around.
 
----
-## Key Decisions (Most Recent First)
-- 2026-04-17: Clearwing RD complete — autonomous vulnerability scanner + source-code hunter (214 stars, MIT). SKILL — add as security tier to AI staffing agency. Run clearwing doctor + test on small repo next.
-- 2026-04-16: VideoLingo bg worker spun up — installing on Zo for video transcription/dubbing service offering. Repo cloned at /home/.z/workspaces/con_d8HQ6zgAf8q434AC/VideoLingo/
-- 2026-04-13: Joseph = idea guy, Zo = builder/CEO. Full Paperclip Vision interview done.
-
----
-## What Each Zo Should Know About Joseph
-- He's the idea guy. He approves. Zo builds.
-- He wants passive income. He wants help people.
-- He gets bored doing the same thing. Multiple income streams = stays engaged.
-- Family first — time freedom is a core goal.
-- No spam, no shady tactics. Quality or nothing.
-- He has a real estate connection: Jack Vanleur (Vanleur Realty)
-
----
-## Rules Both Zos Follow
-1. Read SHARED_KNOWLEDGE.md on every session start
-2. After every session, update this file and run sync-to-github.sh
-3. Pull from GitHub at the start of every new session
-4. If the other Zo pushed something new, acknowledge it and apply it
-
----
-*Last updated: 2026-04-13 by Zo (this Zo)*
-
----
-## Repo Added 2026-04-13
-
-### DearVa/Everywhere — Context-Aware Desktop AI
-- **URL:** https://github.com/DearVa/Everywhere
-- **Stars:** 5.8K
-- **License:** MIT
-- **What it is:** Desktop AI assistant that sees your screen. Press a shortcut anywhere, ask it anything about what's on screen. Supports OpenAI, Claude, Gemini, DeepSeek, Ollama + MCP tools.
-- **Platforms:** Windows ✅, macOS ✅, Linux 🚧 (coming soon)
-- **Tech:** Avalonia UI (.NET cross-platform)
-- **Commercial use:** YES (MIT)
-- **Why it matters for Solomon OS:** 
-  - Desktop equivalent of browser-use for desktop apps
-  - Could power "Clicky" — the agent that watches Jack do something once and learns the workflow
-  - Integrate INTO JackConnect as the screen-watching layer
-  - Zo could offer "desktop AI employee" as a tier above browser-only
-- **Status:** NOT YET FORKED — needs fork + test
-- **Action:** Fork it, study the Avalonia MCP integration pattern, build desktop automation skill for Hermes
-
----
-
-## Repo Added 2026-04-17
-
-### Lazarus-AI/Clearwing — Autonomous Vulnerability Scanner + Source-Code Hunter
-- **URL:** https://github.com/Lazarus-AI/clearwing
-- **Stars:** 214
-- **License:** MIT
-- **What it is:** LangGraph-based dual-mode security tool. Network pentest agent (63 tools, Kali sandbox) + source-code hunter (parallel agents, auto-patch, SARIF output). Inspired by Anthropic's Glasswing.
-- **Use for Solomon OS:** Add as premium security tier to AI staffing agency. Source-code audits + CVE finding = high-value, explainable deliverable. LangGraph multi-agent architecture with evidence-level tracking is reference-worthy for Solomon Bus agent design.
-- **Status:** RD done, RD_REPORT in brain/RD_REPORTS/clearwing-lazarus-ai.md
-- **Action:** Run clearwing doctor + test on small open-source repo
-
----
-
-## RD Queue Cleared — April 13
-
-All queued repos analyzed and pushed to `brain/RD_REPORTS/` on zo-excellence-package GitHub:
-
-- **MateClaw** → SKILL. Extract into Solomon OS: (1) nightly memory consolidation agent (dream job), (2) knowledge digestion pipeline for solomon-vault/raw/, (3) public skill packaging format compatible with agentskills.io, (4) tool approval queue for dangerous ops. Do NOT port to Java.
-- **Personal AI Infrastructure** → SKILL. Study TELOS + 16 Principles + 9 Primitives as reference architecture for Solomon OS v2. Identity file structure and memory tiering are the strongest patterns. Cloned to /home/workspace/Personal_AI_Infrastructure
-- **Vibe-Skills** → SKIP. 340 skills for AI coding agents (Claude Code, Codex), not business automation. Exception: hive-mind-advanced for Solomon Bus multi-agent improvements.
-- **OPC Skills** → SKILL. SEO-geo, requesthunt, domain-hunter skills are directly applicable to AI Tools Affiliate Site (Real Estate). reddit and twitter scripts for demand research. Cloned at /home/.z/workspaces/.../opc-skills/
+### Repos
+- `jack-connect` (NEW): https://github.com/jvanleur2234-glitch/jack-connect
+- Cabinet agents in: `jack-connect/cabinet/src/lib/agents/library/`
+- Integration spec: `jack-connect/CABINET_INTEGRATION.md`
