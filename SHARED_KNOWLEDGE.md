@@ -2,7 +2,55 @@
 
 **Last Updated:** 2026-04-18
 
-## Today's Session: Solomon Browser Added to Plan
+## Today's Session: Be Like You! OS + Solomon Guardian + Browser MVP + 4-Layer Self-Improvement Loop
+
+### What We Did
+
+1. **Be Like You! OS Vision Defined** — Open source phone OS built on LineageOS + vphone-cli + VoIP. Three layers:
+   - Layer 1: vPhone OS (Solomon Air = dialer, JackConnect = productivity, Hermes = AI)
+   - Layer 2: Solomon OS Platform (all embedded in phone)
+   - Layer 3: Be Like You! Tube (YouTube competitor — human-only content, face biometric verification)
+   - **Insight:** What Android did to Symbian — make OS free, own the ecosystem
+
+2. **Solomon Guardian Defined** — Autonomous cyber defense with Attack/Defense teams running 24/7 in parallel. Adversarial self-improvement loop. Subscribes to 20+ threat intel feeds. Zero-day → behavioral heuristics update in minutes.
+
+3. **Solomon Browser MVP Live** — https://josephv.zo.space/browser — Playwright headless browser wrapped in Zo Space. Paste URL + task → AI reads page + extracts data. Persistent memory. Next: actions inside pages, streaming.
+
+4. **4-Layer Self-Improvement Loop Designed:**
+   - HOT Memory: Session state (low latency, always fresh)
+   - COLD Memory: Lessons learned, verified patterns (quality-gated, 2+ confirmations)
+   - Shared Pool: Anonymized learnings across ALL users (never raw conversations)
+   - Identity: Who each user IS (values, goals, communication style, slow-changing)
+   - **Compound loop:** Respond → Log → Evaluate → Update COLD → Propagate → Next session smarter
+
+5. **Full context copy-paste created** for new conversations — 4-part document saved to solomon-vault/raw/
+
+### Build Phases for Self-Improvement Loop
+- Phase 1 (WEEKS 1-2): Per-user memory directories + session summarizer
+- Phase 2 (WEEKS 2-3): Feedback signal capture (thumbs up/down + implicit signals)
+- Phase 3 (WEEKS 3-5): Cross-user knowledge sharing with anonymization
+- Phase 4 (WEEKS 4-6): Identity evolution with drift detection
+- Phase 5 (ONGOING): Daily review + weekly audit + monthly deep-dive
+
+### Files Created/Modified
+- `solomon-vault/raw/JCPaid_Full_Context_Part4.md` — Rest of copy-paste doc
+- `solomon-vault/raw/SOLOMON_GUARDIAN.md` — Guardian OS architecture
+- `solomon-vault/raw/telegram_SUMMARY_2026-04-18.md` — Session summary
+- `HERMES_CAPABILITIES.md` — Updated with self-improvement loop phases
+
+### Key Quote from Joseph
+"research and educate yourself on the best way to build this and in what order. You then also put this in loop of how so you continue to improve yourself. So we make it better and better and you make yourself better and better for each individual that uses you. Basically a personal os but can easily talk to everyone else that is using it."
+
+### Follow-up
+- Build Phase 1: Per-user memory structure with Joseph as first user
+- Research vphone-cli more deeply for Be Like You! OS
+- Push to GitHub (already done, no changes)
+
+---
+
+## Previous Sessions
+
+### 2026-04-18 — Solomon Browser Added to Plan
 
 ### What We Did
 1. **Joseph asked:** Can you make your own browser?
@@ -10,59 +58,33 @@
 3. **Pitched Solomon Browser product** — AI-native web browser with persistent memory, agent-native DOM access, privacy-first option, and business intelligence scraping
 4. **Joseph approved** — "Yes add this in to the whole plan we got going"
 5. **Added to plan:**
-   - `solomon-vault/brain/Business Ideas.md` — full Solomon Browser section (4 product angles, tech options, revenue model, fit with existing stack)
+   - `solomon-vault/brain/Business Ideas.md` — full Solomon Browser section
    - `AGENTS.md` — updated BUSINESS PRIORITY to include Solomon Browser as secondary priority
-   - Updated KEY CONTEXT FILES path from non-existent `MegaPlan/` to correct `solomon-vault/brain/` path
-6. **Pushed to GitHub** — solomon-vault updated with new Solomon Browser content
 
 ### Key Details
 - **Product:** Browser designed for AI agents working on your behalf
 - **4 angles:** (1) Persistent memory, (2) Agent-native DOM API, (3) Privacy-first, (4) Business intelligence scraping
-- **Tech:** Wrap Chromium via Playwright/Puppeteer (2-4 weeks MVP) — don't build browser engine from scratch
+- **Tech:** Wrap Chromium via Playwright/Puppeteer (MVP) — browser engine from scratch = 12+ months
 - **Stack fit:** Scrapling (installed), Hermes (running), Russell Tuna (Telegram), Zo Space (dashboard + Stripe)
 - **Revenue:** Freemium (10 AI browses/day free), $9/mo basic, $29/mo pro, $99/mo enterprise
-- **First step:** Build Playwright-based URL reader in Zo Space as POC
-- **Difficulty:** 5/10 | **Time to POC:** 2-3 weeks | **MRR ceiling:** $50-100K/mo | **Window:** 12-18 months
-
-### Decision Made
-Solomon Browser replaces/merges with SureThing Clone / AI Employee Dashboard concept — build it as a BROWSER instead of a dashboard. Paste a link → AI reads site → becomes agent that can take actions inside it.
 
 ### Files Modified
 - `solomon-vault/brain/Business Ideas.md` — Solomon Browser section added
-- `AGENTS.md` — BUSINESS PRIORITY updated, KEY CONTEXT FILES path fixed
-- GitHub push: https://github.com/jvanleur2234-glitch/solomon-vault/commit/3ae3635
+- `AGENTS.md` — BUSINESS PRIORITY updated
 
 ---
-
-## Previous Sessions
 
 ### 2026-04-17 — JackConnect + Cabinet Integration
 
 ### What We Did
 1. Forked Cabinet (hilash/cabinet) and autoMate (yuruotong1/autoMate) into JackConnect
-2. Built 7 real estate agent templates for Cabinet's library:
-   - `superintendent-re` — Jack's daily AI coordinator (7 AM CT briefing)
-   - `prospector-re` — Lead scoring 1-10, outreach drafts
-   - `property-matchmaker-re` — Buyer/seller matching with commission math
-   - `investment-analyst-re` — CMA reports, cap rates, rental analysis
-   - `transaction-coordinator-re` — Deal tracking, deadlines, contingencies
-   - `client-nourisher-re` — Birthday/SOI/anniversary nurturing
-   - `market-intel-re` — Farm area monitoring, new listings, expireds
+2. Built 7 real estate agent templates for Cabinet's library
 3. Built 3 autoMate scripts for real estate desktop workflows
 4. Created full Cabinet integration spec
-5. Pushed to GitHub: https://github.com/jvanleur2234-glitch/jack-connect
+5. Pushed to GitHub
 
 ### Key Insight
-Cabinet is 70% of what JackConnect was trying to build from scratch. The integration replaces:
-- Brain files → Cabinet KB with git history
-- Python cron scripts → Native Cabinet heartbeats
-- Watch Once capture → Watch Once → autoMate scripts → Cabinet agent learns
-- Separate zo.space pages → Embedded HTML apps in Cabinet
-
-### Video Reflection: King Solomon + Golem
-The King Solomon video (emet/truth principle, kill switch) maps directly to Solomon Air's mission: build AI infrastructure nobody can control or shut down. JackConnect is the application layer — AI that serves the human, not the other way around.
+Cabinet is 70% of what JackConnect was trying to build from scratch. The integration replaces brain files, Python cron scripts, Watch Once capture, and separate zo.space pages.
 
 ### Repos
 - `jack-connect` (NEW): https://github.com/jvanleur2234-glitch/jack-connect
-- Cabinet agents in: `jack-connect/cabinet/src/lib/agents/library/`
-- Integration spec: `jack-connect/CABINET_INTEGRATION.md`
