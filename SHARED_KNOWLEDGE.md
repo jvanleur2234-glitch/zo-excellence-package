@@ -2,35 +2,35 @@
 
 **Last Updated:** 2026-04-18
 
-## Today's Session: Autogenesis + gn hf — Solomon OS 2.0 Architecture
+## Today's Session: Solomon Browser Added to Plan
 
 ### What We Did
-1. **Analyzed Autogenesis paper (arXiv:2604.15034)** — SEPL loop identified as the architectural blueprint for Solomon OS 2.0. SEPL = Reflect→Select→Improve→Evaluate→Commit closed-loop control system. Turns Russell Tuna from reactive chatbot → self-improving worker.
-2. **Analyzed gn hf** (kunchenguid/gnhf) — nightly autonomous coding orchestrator. Iteration pattern (commit on success / rollback on failure / notes.md across iterations) to graft onto Solomon Bus overnight worker.
-3. **Joseph confirmed:** start building SEPL into Solomon Bus, queue gn hf.
-4. **Task queue updated** with autogenesis-sepl-001 (HIGH) and gnhf-iter-001 (normal).
-5. **RD reports written** to solomon-vault/brain/RD_REPORTS/:
-   - autogenesis-2604.15034.md
-   - gnhf.md
+1. **Joseph asked:** Can you make your own browser?
+2. **Confirmed existing browser capabilities** — Zo already has full browser tools (open, read, click, scroll, fill, screenshot, login to sites)
+3. **Pitched Solomon Browser product** — AI-native web browser with persistent memory, agent-native DOM access, privacy-first option, and business intelligence scraping
+4. **Joseph approved** — "Yes add this in to the whole plan we got going"
+5. **Added to plan:**
+   - `solomon-vault/brain/Business Ideas.md` — full Solomon Browser section (4 product angles, tech options, revenue model, fit with existing stack)
+   - `AGENTS.md` — updated BUSINESS PRIORITY to include Solomon Browser as secondary priority
+   - Updated KEY CONTEXT FILES path from non-existent `MegaPlan/` to correct `solomon-vault/brain/` path
+6. **Pushed to GitHub** — solomon-vault updated with new Solomon Browser content
 
-### Key Insight
-Solomon Bus already has the bones (agent bus, sub-agents, Hermes skills, Solomon Vault memory) but lacks:
-- Version lineage on skills (can't roll back bad changes)
-- Formal evaluation step (no test-before-commit)
-- Explicit failure hypothesis generation
-- Safety gates
+### Key Details
+- **Product:** Browser designed for AI agents working on your behalf
+- **4 angles:** (1) Persistent memory, (2) Agent-native DOM API, (3) Privacy-first, (4) Business intelligence scraping
+- **Tech:** Wrap Chromium via Playwright/Puppeteer (2-4 weeks MVP) — don't build browser engine from scratch
+- **Stack fit:** Scrapling (installed), Hermes (running), Russell Tuna (Telegram), Zo Space (dashboard + Stripe)
+- **Revenue:** Freemium (10 AI browses/day free), $9/mo basic, $29/mo pro, $99/mo enterprise
+- **First step:** Build Playwright-based URL reader in Zo Space as POC
+- **Difficulty:** 5/10 | **Time to POC:** 2-3 weeks | **MRR ceiling:** $50-100K/mo | **Window:** 12-18 months
 
-SEPL adds all four. gn hf adds the discrete iteration + git-based rollback model for overnight workers.
+### Decision Made
+Solomon Browser replaces/merges with SureThing Clone / AI Employee Dashboard concept — build it as a BROWSER instead of a dashboard. Paste a link → AI reads site → becomes agent that can take actions inside it.
 
-### Build Plan
-1. **Phase 1:** Add version lineage to Hermes skills (RSPL base layer)
-2. **Phase 2:** Build Reflect→Select→Improve→Evaluate→Commit on Solomon Bus (SEPL layer)
-3. **Phase 3:** Graft gn hf iteration engine for overnight worker loops
-
-### Repos / Sources
-- Autogenesis: https://arxiv.org/pdf/2604.15034
-- gn hf: https://github.com/kunchenguid/gnhf
-- RD reports: `solomon-vault/brain/RD_REPORTS/`
+### Files Modified
+- `solomon-vault/brain/Business Ideas.md` — Solomon Browser section added
+- `AGENTS.md` — BUSINESS PRIORITY updated, KEY CONTEXT FILES path fixed
+- GitHub push: https://github.com/jvanleur2234-glitch/solomon-vault/commit/3ae3635
 
 ---
 
