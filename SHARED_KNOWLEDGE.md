@@ -2,52 +2,23 @@
 
 **Last Updated:** 2026-04-19
 
-## Today's Session: N.O.M.A.D. Fork + Postgres + 10 Repos (April 19, 2026)
+## April 19, 2026 — OpenMythos + NVIDIA NIM + 4 New Repos
 
-### What We Did
+## Today: 4 repos queued, 13 background jobs submitted
 
-**10 new repos forked today:**
-1. Paseo (cross-device Russell Tuna control)
-2. browser-harness (self-healing browser automation)
-3. mysteriumnetwork/node (decentralized VPN)
-4. icarus-daedalus + icarus-plugin (cross-agent shared memory)
-5. EvoMap/evolver (GEP self-evolution engine)
-6. Mr-Infect/AI-penetration-testing (OWASP LLM Top 10)
-7. Mininglamp-AI/Mano-P (vision-based GUI agent)
-8. Project N.O.M.A.D. (offline knowledge server)
-9. NousResearch/hermes-agent (xurl skill merged)
-10. SimoneAvogadro/android-reverse-engineering-skill (Android APK decompiling)
+### Queue processing (April 19 midday)
+1. **Anthropic-Cybersecurity-Skills** (4.7K stars) — FORKED ✅ — 754 MITRE-mapped security skills for Solomon Guardian. ATLAS coverage = AI-specific threats (attacks ON Hermes/Russell Tuna itself). CRITICAL for Guardian's attack/defense knowledge.
+2. **audio-car-cockpit** (cookbook/1.8K stars) — FORKED ✅ — Voice AI architecture. LFM2.5-Audio-1.5B (STT/TTS) + LFM2-1.2B-Tool via Llama.cpp. Voice command → AI executes → responds. This is the voice layer Solomon Air was missing.
+3. **DeepGEMM** (6.7K stars) — SKIP — Needs SM90 GPU (H100/H200). Our server has no NVIDIA GPU.
+4. **Baoyu** (NOUS partnership) — Infographic skill. FORKED ✅ — Can generate images for Solomon OS content.
 
-**MAJOR: Be Like You! OS N.O.M.A.D. Fork**
-- Forked: github.com/jvanleur2234-glitch/be-like-you-nomad
-- Added SPEC.md (full integration architecture)
-- Added solomon/postgres-schema.sql (unified Postgres = replaces Redis/RabbitMQ/Elasticsearch/Pinecone)
-- Added solomon/docker-compose.yaml (Solomon OS as Docker sidecar)
-- Key insight from Postgres video: ONE Postgres database rules them all
-- All agents share: job queue (SKIP LOCKED), vector search (pg_vector), full-text search (TSvector), JSONB memory
+### Background jobs (April 18 night)
+13 jobs queued in Job Runner — working while Joseph sleeps. Includes N.O.M.A.D. Postgres schema, Hermes xurl install, AI-pentest wiring, Evolver loop, Icarus setup, ClawLess browser integration.
 
-**Key Decisions Made:**
-- Self-improvement loop applies to ALL of JCPaid (business, content, sales, product, strategy)
-- JCPaid pre-install philosophy: best-of-breed + AI layer + user customizes
-- SDR cellular = endgame for privacy (carrier-free communication)
-- N.O.M.A.D. = the offline knowledge layer for Be Like You! OS
-- All pushed to GitHub
-
-**Files Created:**
-- be-like-you-nomad/ (new repo)
-- be-like-you-nomad/SPEC.md
-- be-like-you-nomad/solomon/postgres-schema.sql
-- be-like-you-nomad/solomon/docker-compose.yaml
-- solomon-vault/brain/JC_MASTER_PLAN.md (master plan v2)
-- solomon-vault/brain/SELF_IMPROVEMENT_LOOP.md
-- solomon-vault/brain/RD_REPORTS/ (9 new RD reports)
-- Updated HERMES_CAPABILITIES.md with all new repos
-
-**Unresolved Issues / Follow-up:**
-- Need to install N.O.M.A.D. on a test machine to verify the Solomon OS sidecar works
-- Todo: Write the Solomon OS command center plugin for N.O.M.A.D.'s admin UI
-- Todo: Test the Postgres schema on a live Postgres instance
-- Todo: Get jadx working for Android reverse engineering skill
+### Repos added today
+- jvanleur2234-glitch/Anthropic-Cybersecurity-Skills
+- jvanleur2234-glitch/deepseek-DeepGEMM (skipped - no GPU)
+- cookbook/examples/audio-car-cockpit
 
 ---
 
