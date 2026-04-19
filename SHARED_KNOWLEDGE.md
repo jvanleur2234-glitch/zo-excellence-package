@@ -1,50 +1,38 @@
 # Shared Knowledge — Zo Excellence Package
 
-**Last Updated:** 2026-04-18
+**Last Updated:** 2026-04-19
 
-## Today's Session: Be Like You! OS + Solomon Guardian + Browser MVP + 4-Layer Self-Improvement Loop
+## Today's Session: Queue processing — 7 repos evaluated and forked
 
-### What We Did
+### What we did
+Joseph queued 7 repos/links throughout the evening. I evaluated each and forked what mattered.
 
-1. **Be Like You! OS Vision Defined** — Open source phone OS built on LineageOS + vphone-cli + VoIP. Three layers:
-   - Layer 1: vPhone OS (Solomon Air = dialer, JackConnect = productivity, Hermes = AI)
-   - Layer 2: Solomon OS Platform (all embedded in phone)
-   - Layer 3: Be Like You! Tube (YouTube competitor — human-only content, face biometric verification)
-   - **Insight:** What Android did to Symbian — make OS free, own the ecosystem
+### Repos processed:
+1. **Paseo** (jvanleur2234-glitch/paseo) — cross-device Russell Tuna control from phone. npm monorepo, mobile app, WebSocket daemon. HIGH fit. MIT/AGPL.
+2. **browser-harness** (jvanleur2234-glitch/browser-harness) — self-healing browser for AI agents, 592 lines Python, agent writes missing helpers mid-task. HIGH fit.
+3. **Mysterium Node** (jvanleur2234-glitch/node) — decentralized VPN, 1.2K stars, GPL. LOW for JCPaid (P2P bandwidth sharing ≠ AI employee use case).
+4. **Icarus** (jvanleur2234-glitch/icarus-daedalus + icarus-plugin) — shared Hermes memory layer. CRITICAL find. Fills the #1 Solomon OS gap. Installed.
+5. **android-reverse-engineering-skill** (jvanleur2234-glitch/android-reverse-engineering-skill) — decompiles APKs, extracts HTTP APIs. jadx installed. MEDIUM for reverse-engineering apps for JCPaid.
+6. **hermes xurl** (PR #12303, jvanleur2234-glitch/hermes-agent) — official X API CLI replaces broken xitter. MERGED TODAY. xurl installed on server.
+7. **Mano-P 1.0** (jvanleur2234-glitch/Mano-P) — vision-based GUI agent, cross-desktop automation. HIGH potential but macOS-only (M4 required). Watch for Windows/Linux.
 
-2. **Solomon Guardian Defined** — Autonomous cyber defense with Attack/Defense teams running 24/7 in parallel. Adversarial self-improvement loop. Subscribes to 20+ threat intel feeds. Zero-day → behavioral heuristics update in minutes.
+### X posts processed:
+- **selfh.st/apps** — self-hosted alternatives directory. Reference catalog for JCPaid pre-install batch.
+- **ai-engineering-from-scratch** — 260+ lesson AI course. For Joseph's personal learning.
+- **Mano-P tweet** — vision GUI agent comparison (OpenClaw vs Hermes Agent vs Mano-P).
 
-3. **Solomon Browser MVP Live** — https://josephv.zo.space/browser — Playwright headless browser wrapped in Zo Space. Paste URL + task → AI reads page + extracts data. Persistent memory. Next: actions inside pages, streaming.
+### Key decisions:
+- JCPaid = best-of-breed pre-installed + AI layer + user customizes
+- Pre-install stack: Matrix/Element, Jitsi, NextCloud, Vaultwarden, WireGuard, Tailscale, Ollama, browser-harness, Paseo, Icarus
+- xurl = official X API for Solomon OS social capabilities
 
-4. **4-Layer Self-Improvement Loop Designed:**
-   - HOT Memory: Session state (low latency, always fresh)
-   - COLD Memory: Lessons learned, verified patterns (quality-gated, 2+ confirmations)
-   - Shared Pool: Anonymized learnings across ALL users (never raw conversations)
-   - Identity: Who each user IS (values, goals, communication style, slow-changing)
-   - **Compound loop:** Respond → Log → Evaluate → Update COLD → Propagate → Next session smarter
+### GitHub pushed:
+- solomon-vault: Mano-P RD, Hermes xurl RD, 7 forks
+- MEGA_PLAN: Updated with all new capabilities
 
-5. **Full context copy-paste created** for new conversations — 4-part document saved to solomon-vault/raw/
-
-### Build Phases for Self-Improvement Loop
-- Phase 1 (WEEKS 1-2): Per-user memory directories + session summarizer
-- Phase 2 (WEEKS 2-3): Feedback signal capture (thumbs up/down + implicit signals)
-- Phase 3 (WEEKS 3-5): Cross-user knowledge sharing with anonymization
-- Phase 4 (WEEKS 4-6): Identity evolution with drift detection
-- Phase 5 (ONGOING): Daily review + weekly audit + monthly deep-dive
-
-### Files Created/Modified
-- `solomon-vault/raw/JCPaid_Full_Context_Part4.md` — Rest of copy-paste doc
-- `solomon-vault/raw/SOLOMON_GUARDIAN.md` — Guardian OS architecture
-- `solomon-vault/raw/telegram_SUMMARY_2026-04-18.md` — Session summary
-- `HERMES_CAPABILITIES.md` — Updated with self-improvement loop phases
-
-### Key Quote from Joseph
-"research and educate yourself on the best way to build this and in what order. You then also put this in loop of how so you continue to improve yourself. So we make it better and better and you make yourself better and better for each individual that uses you. Basically a personal os but can easily talk to everyone else that is using it."
-
-### Follow-up
-- Build Phase 1: Per-user memory structure with Joseph as first user
-- Research vphone-cli more deeply for Be Like You! OS
-- Push to GitHub (already done, no changes)
+### Services modified:
+- jadx 1.5.1 installed at /opt/jadx
+- xurl installed at /usr/local/bin/xurl
 
 ---
 
