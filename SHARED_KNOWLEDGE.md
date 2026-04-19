@@ -4,13 +4,18 @@
 
 ## April 19, 2026 — OpenMythos + NVIDIA NIM + 4 New Repos
 
-## Today: 4 repos queued, 13 background jobs submitted
+## Today: 6 repos queued, Per-Agent Brain + Council of High Intelligence
 
 ### Queue processing (April 19 midday)
 1. **Anthropic-Cybersecurity-Skills** (4.7K stars) — FORKED ✅ — 754 MITRE-mapped security skills for Solomon Guardian. ATLAS coverage = AI-specific threats (attacks ON Hermes/Russell Tuna itself). CRITICAL for Guardian's attack/defense knowledge.
 2. **audio-car-cockpit** (cookbook/1.8K stars) — FORKED ✅ — Voice AI architecture. LFM2.5-Audio-1.5B (STT/TTS) + LFM2-1.2B-Tool via Llama.cpp. Voice command → AI executes → responds. This is the voice layer Solomon Air was missing.
 3. **DeepGEMM** (6.7K stars) — SKIP — Needs SM90 GPU (H100/H200). Our server has no NVIDIA GPU.
 4. **Baoyu** (NOUS partnership) — Infographic skill. FORKED ✅ — Can generate images for Solomon OS content.
+5. **OpenMythos** (524K views) — FORKED ✅ — Claude Mythos architecture reconstruction. Looped transformer + MoE. Key insight: implicit reasoning inside forward pass, not chain-of-thought. Maps to Evolver's genetic programming — together they = self-improving AI that rewrites its own reasoning loops.
+6. **NVIDIA NIM + Hermes** — INTEGRATED ✅ — minimax-m2.7 now free through NVIDIA's API. 20x faster reasoning than qwen3:1.7b. hermes config set NVIDIA_API_KEY confirmed working.
+7. **Paperless-NGX** — FORKED ✅ — Document management system. PRE-INSTALL CONFIRMED for N.O.M.A.D. stack.
+8. **agentic-memory** — FORKED ✅ — Per-agent persistent brain. Each agent gets its own .amem file. This is the "brain" for every agent in Solomon OS.
+9. **Council of High Intelligence** — FORKED ✅ — 18 AI personas deliberate decisions (Aristotle, Feynman, Kahneman, Torvalds...). Multi-provider routing across Claude/GPT/Gemini/Ollama. Integrates as Solomon OS decision-making layer.
 
 ### Background jobs (April 18 night)
 13 jobs queued in Job Runner — working while Joseph sleeps. Includes N.O.M.A.D. Postgres schema, Hermes xurl install, AI-pentest wiring, Evolver loop, Icarus setup, ClawLess browser integration.
