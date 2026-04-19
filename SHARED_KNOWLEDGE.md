@@ -2,37 +2,52 @@
 
 **Last Updated:** 2026-04-19
 
-## Today's Session: Queue processing — 7 repos evaluated and forked
+## Today's Session: N.O.M.A.D. Fork + Postgres + 10 Repos (April 19, 2026)
 
-### What we did
-Joseph queued 7 repos/links throughout the evening. I evaluated each and forked what mattered.
+### What We Did
 
-### Repos processed:
-1. **Paseo** (jvanleur2234-glitch/paseo) — cross-device Russell Tuna control from phone. npm monorepo, mobile app, WebSocket daemon. HIGH fit. MIT/AGPL.
-2. **browser-harness** (jvanleur2234-glitch/browser-harness) — self-healing browser for AI agents, 592 lines Python, agent writes missing helpers mid-task. HIGH fit.
-3. **Mysterium Node** (jvanleur2234-glitch/node) — decentralized VPN, 1.2K stars, GPL. LOW for JCPaid (P2P bandwidth sharing ≠ AI employee use case).
-4. **Icarus** (jvanleur2234-glitch/icarus-daedalus + icarus-plugin) — shared Hermes memory layer. CRITICAL find. Fills the #1 Solomon OS gap. Installed.
-5. **android-reverse-engineering-skill** (jvanleur2234-glitch/android-reverse-engineering-skill) — decompiles APKs, extracts HTTP APIs. jadx installed. MEDIUM for reverse-engineering apps for JCPaid.
-6. **hermes xurl** (PR #12303, jvanleur2234-glitch/hermes-agent) — official X API CLI replaces broken xitter. MERGED TODAY. xurl installed on server.
-7. **Mano-P 1.0** (jvanleur2234-glitch/Mano-P) — vision-based GUI agent, cross-desktop automation. HIGH potential but macOS-only (M4 required). Watch for Windows/Linux.
+**10 new repos forked today:**
+1. Paseo (cross-device Russell Tuna control)
+2. browser-harness (self-healing browser automation)
+3. mysteriumnetwork/node (decentralized VPN)
+4. icarus-daedalus + icarus-plugin (cross-agent shared memory)
+5. EvoMap/evolver (GEP self-evolution engine)
+6. Mr-Infect/AI-penetration-testing (OWASP LLM Top 10)
+7. Mininglamp-AI/Mano-P (vision-based GUI agent)
+8. Project N.O.M.A.D. (offline knowledge server)
+9. NousResearch/hermes-agent (xurl skill merged)
+10. SimoneAvogadro/android-reverse-engineering-skill (Android APK decompiling)
 
-### X posts processed:
-- **selfh.st/apps** — self-hosted alternatives directory. Reference catalog for JCPaid pre-install batch.
-- **ai-engineering-from-scratch** — 260+ lesson AI course. For Joseph's personal learning.
-- **Mano-P tweet** — vision GUI agent comparison (OpenClaw vs Hermes Agent vs Mano-P).
+**MAJOR: Be Like You! OS N.O.M.A.D. Fork**
+- Forked: github.com/jvanleur2234-glitch/be-like-you-nomad
+- Added SPEC.md (full integration architecture)
+- Added solomon/postgres-schema.sql (unified Postgres = replaces Redis/RabbitMQ/Elasticsearch/Pinecone)
+- Added solomon/docker-compose.yaml (Solomon OS as Docker sidecar)
+- Key insight from Postgres video: ONE Postgres database rules them all
+- All agents share: job queue (SKIP LOCKED), vector search (pg_vector), full-text search (TSvector), JSONB memory
 
-### Key decisions:
-- JCPaid = best-of-breed pre-installed + AI layer + user customizes
-- Pre-install stack: Matrix/Element, Jitsi, NextCloud, Vaultwarden, WireGuard, Tailscale, Ollama, browser-harness, Paseo, Icarus
-- xurl = official X API for Solomon OS social capabilities
+**Key Decisions Made:**
+- Self-improvement loop applies to ALL of JCPaid (business, content, sales, product, strategy)
+- JCPaid pre-install philosophy: best-of-breed + AI layer + user customizes
+- SDR cellular = endgame for privacy (carrier-free communication)
+- N.O.M.A.D. = the offline knowledge layer for Be Like You! OS
+- All pushed to GitHub
 
-### GitHub pushed:
-- solomon-vault: Mano-P RD, Hermes xurl RD, 7 forks
-- MEGA_PLAN: Updated with all new capabilities
+**Files Created:**
+- be-like-you-nomad/ (new repo)
+- be-like-you-nomad/SPEC.md
+- be-like-you-nomad/solomon/postgres-schema.sql
+- be-like-you-nomad/solomon/docker-compose.yaml
+- solomon-vault/brain/JC_MASTER_PLAN.md (master plan v2)
+- solomon-vault/brain/SELF_IMPROVEMENT_LOOP.md
+- solomon-vault/brain/RD_REPORTS/ (9 new RD reports)
+- Updated HERMES_CAPABILITIES.md with all new repos
 
-### Services modified:
-- jadx 1.5.1 installed at /opt/jadx
-- xurl installed at /usr/local/bin/xurl
+**Unresolved Issues / Follow-up:**
+- Need to install N.O.M.A.D. on a test machine to verify the Solomon OS sidecar works
+- Todo: Write the Solomon OS command center plugin for N.O.M.A.D.'s admin UI
+- Todo: Test the Postgres schema on a live Postgres instance
+- Todo: Get jadx working for Android reverse engineering skill
 
 ---
 
