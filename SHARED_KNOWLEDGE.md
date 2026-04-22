@@ -4,7 +4,14 @@
 
 ## What We Decided Today
 
-### Skills Pruning
+### April 22 — Big Pivot: JCPaid is the Product
+- JackConnect = proof of concept for real estate vertical
+- JCPaid = the actual business: sell AI employee agencies to ANY vertical
+- Positioning: "Solomon OS — the AI OS that gives you back your time for the important things"
+- BitNet + Paperclip = the agent infrastructure (300 agents on 16GB RAM)
+- JackConnect v2.0: installer + 7 RE agents + Watch Once + Time Saver Dashboard
+
+### April 21 — Skills Pruning
 - Audited Hermes skills: 1,441 → 1,215 (removed 226 redundant/duplicate skills)
 - Target: 1,200 clean, non-redundant skills
 
