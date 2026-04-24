@@ -182,4 +182,7 @@ Agents and freelancers already have clients who need AI. They make money selling
 
 This turns every freelancer, coach, consultant, and agent into a commission-based AI sales rep with zero overhead.
 
+**THE TRUSTED ADVISOR MODEL (FIX):**
+Non-technical agents don't sell AI — they sell outcomes from someone they already trust. The key: they don't explain AI. They just bundle AI outcomes into their existing service. Example: CPA sells "AI bookkeeping" to their small business clients — clients already trust the CPA with their taxes and compliance. One more service. Zero selling required.
+
 *Last updated: April 24, 2026*
