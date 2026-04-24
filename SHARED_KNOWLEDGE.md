@@ -239,4 +239,6 @@ Non-technical agents don't sell AI — they sell outcomes from someone they alre
 
 This validates our JCPaid positioning: AI as JOB CREATOR, not replacer.
 
+**ML Intern**
+
 *Last updated: April 24, 2026*
