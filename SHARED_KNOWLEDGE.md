@@ -197,4 +197,46 @@ Non-technical agents don't sell AI — they sell outcomes from someone they alre
 
 This validates our JCPaid positioning: AI as JOB CREATOR, not replacer.
 
+**Future AGI**
+
+### April 24, 2026 — JCPaid Affiliate Network
+
+**THE INSIGHT:**
+Agents and freelancers already have clients who need AI. They make money selling THEIR time. We let them make money selling OUR AI workers — without building anything themselves.
+
+**HOW IT WORKS:**
+1. Agent joins → gets a unique affiliate link
+2. Shares with clients who need AI workers
+3. Client pays JCPaid $99-299/mo
+4. Agent gets 20% commission for LIFE
+5. Agent does zero support — we handle everything
+
+**THE MATH:**
+- 10 clients × $300/month = $600/month passive
+- 50 clients × $300/month = $3,000/month passive
+- 100 clients × $300/month = $6,000/month passive
+- 20% recurring. Forever.
+
+**COMPETITION ADVANTAGE:**
+- Drag AI → enterprise sales only
+- Everyone else → one-off subscriptions
+- JCPaid → distributed sales force via affiliate network
+
+This turns every freelancer, coach, consultant, and agent into a commission-based AI sales rep with zero overhead.
+
+**THE TRUSTED ADVISOR MODEL (FIX):**
+Non-technical agents don't sell AI — they sell outcomes from someone they already trust. The key: they don't explain AI. They just bundle AI outcomes into their existing service. Example: CPA sells "AI bookkeeping" to their small business clients — clients already trust the CPA with their taxes and compliance. One more service. Zero selling required.
+
+**CRITICAL COMPETITOR + INSPIRATION: Zero Human Company (ZHC-RPG)** — Brian Roemmele + Grok CEO. 2,700 AI employees, Fortune 500 tested for 2 days. Full transparency model. This is THE validation of the JCPaid thesis. Queue this immediately.
+
+**POMP LIANO VALIDATION:**
+- Changed his mind: AI creates MORE jobs, not fewer
+- 5.6% MORE college grads hired last 12 months
+- 640K new AI jobs created 2023-2025 (LinkedIn)
+- Software engineer roles GROWING, not shrinking
+- "AI makes companies more productive → more corporations + startups + jobs"
+- Big tech layoffs = bloated companies using AI as excuse for over-hiring
+
+This validates our JCPaid positioning: AI as JOB CREATOR, not replacer.
+
 *Last updated: April 24, 2026*
