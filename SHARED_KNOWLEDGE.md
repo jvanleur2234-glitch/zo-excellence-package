@@ -4,7 +4,41 @@
 
 ## What We Decided Today
 
-### April 23, 2026
+### April 23, 2026 — JCPaid Takes Shape
+
+**Business Decisions:**
+- JCPaid = the product (AI staffing agency), JackConnect = proof of concept for real estate vertical
+- Hybrid local/cloud inference — light work local (free), heavy work cloud (pay-per-use)
+- Tauri desktop app — native Windows exe, Jack builds on his T15
+- MemPalace (FORGE) — Milla Jovovich's 96.6% memory benchmark, ZERO cost, local
+- RunFusion.ai (FORGE) — "cursor for agents," multi-provider swarm platform
+- FreeLLMAPI — unified API for all LLM providers
+- Google Agent Skills — 810 stars, 42 forks. Keep JCPaid Skills as our own repo (don't submit to Google)
+- TileLang — hardware-agnostic inference (500-600 tok/sec on B200, 10X CUDA)
+- NVIDIA Build — 1000+ free credits, MiniMax M2.7 available
+
+**What Was Built:**
+- JackConnect Tauri desktop app scaffold (system tray, 3 tabs, threat badge)
+- PetPal dog co-parenting app (4 tabs, photo ID, med scheduling, walk tracker)
+- JackConnect Dashboard (metrics: hours saved, tasks automated, agents running)
+- Zo Space pages: /jackconnect, /jackconnect-dashboard, /petpal, /time-saver-ai
+- API routes: /api/watch-once, /api/paperclip-connect, /api/paperclip-execute-task
+- JCPaid Skills (7 RE agent skills with SKILL.md + metadata.yaml)
+- install-jack.sh v2.5 (all tools: Ollama, BitNet, TileLang, llmfit, FreeLLMAPI, Clawd Cursor, MemPalace, etc.)
+- Demo screenshots + 16-sec video
+
+**Key Insight — Local vs Cloud:**
+Mike Gannotti (realistic) vs Gorilla Rogue AI (principles) — BOTH right. Solomon OS uses HYBRID:
+- Local: Qwen 3.1B/4B (free, private, fast)
+- Cloud: Kimi K2.6/MiniMax M2.7 (frontier quality)
+- User picks based on privacy need, capability need, budget
+- llmfit auto-detects hardware and recommends the right split
+
+**Unresolved:**
+- JackConnect page not showing changes (possible caching issue)
+- Rust/Tauri build blocked on server (no GTK3/WebKit) — Jack builds on T15
+- Demo video creation limited — used static screenshots instead
+- Counter-Manifesto not yet written
 
 ### April 22 — Big Pivot: JCPaid is the Product
 - JackConnect = proof of concept for real estate vertical
