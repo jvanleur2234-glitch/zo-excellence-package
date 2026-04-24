@@ -2,7 +2,7 @@
 
 *Last updated: April 21, 2026*
 
-## What We Decided Today
+## What We Decided
 
 ### April 23, 2026 — JCPaid Takes Shape
 
@@ -39,6 +39,7 @@ Mike Gannotti (realistic) vs Gorilla Rogue AI (principles) — BOTH right. Solom
 - Rust/Tauri build blocked on server (no GTK3/WebKit) — Jack builds on T15
 - Demo video creation limited — used static screenshots instead
 - Counter-Manifesto not yet written
+- Drag AI comp
 
 ### April 22 — Big Pivot: JCPaid is the Product
 - JackConnect = proof of concept for real estate vertical
