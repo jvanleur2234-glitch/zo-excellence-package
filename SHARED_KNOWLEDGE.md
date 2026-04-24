@@ -185,4 +185,6 @@ This turns every freelancer, coach, consultant, and agent into a commission-base
 **THE TRUSTED ADVISOR MODEL (FIX):**
 Non-technical agents don't sell AI — they sell outcomes from someone they already trust. The key: they don't explain AI. They just bundle AI outcomes into their existing service. Example: CPA sells "AI bookkeeping" to their small business clients — clients already trust the CPA with their taxes and compliance. One more service. Zero selling required.
 
+**CRITICAL COMPETITOR + INSPIRATION: Zero Human Company (ZHC-RPG)** — Brian Roemmele + Grok CEO. 2,700 AI employees, Fortune 500 tested for 2 days. Full transparency model. This is THE validation of the JCPaid thesis. Queue this immediately.
+
 *Last updated: April 24, 2026*
