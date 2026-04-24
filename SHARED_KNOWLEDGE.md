@@ -159,13 +159,27 @@ Mike Gannotti (realistic) vs Gorilla Rogue AI (principles) — BOTH right. Solom
 
 ### April 24, 2026 — JCPaid Affiliate Network
 
-**The Big Platform Insight:** Network effects win. Uber (driver+writer), Airbnb (host+guest). JCPaid needs AI agent NETWORK EFFECTS.
+**THE INSIGHT:**
+Agents and freelancers already have clients who need AI. They make money selling THEIR time. We let them make money selling OUR AI workers — without building anything themselves.
 
-**The JCPaid Affiliate Network:**
-- Agents = referral partners
-- Find businesses that need AI workers → get them on JCPaid → earn 20% recurring for life
-- Recruiter with 10 clients × $300 MRR = $600/month passive
-- Affiliate does the selling. We don't have to.
-- They have relationships with businesses we can't reach.
+**HOW IT WORKS:**
+1. Agent joins → gets a unique affiliate link
+2. Shares with clients who need AI workers
+3. Client pays JCPaid $99-299/mo
+4. Agent gets 20% commission for LIFE
+5. Agent does zero support — we handle everything
 
-**Key insight:** Businesses need to TRUST someone before buying. That's the affiliate. We give them AI tools + commission.
+**THE MATH:**
+- 10 clients × $300/month = $600/month passive
+- 50 clients × $300/month = $3,000/month passive
+- 100 clients × $300/month = $6,000/month passive
+- 20% recurring. Forever.
+
+**COMPETITION ADVANTAGE:**
+- Drag AI → enterprise sales only
+- Everyone else → one-off subscriptions
+- JCPaid → distributed sales force via affiliate network
+
+This turns every freelancer, coach, consultant, and agent into a commission-based AI sales rep with zero overhead.
+
+*Last updated: April 24, 2026*
