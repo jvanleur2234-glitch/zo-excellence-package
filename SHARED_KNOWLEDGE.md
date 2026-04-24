@@ -156,3 +156,16 @@ Mike Gannotti (realistic) vs Gorilla Rogue AI (principles) — BOTH right. Solom
 - Referral tracking
 - Time saved dashboard
 - Full demo video
+
+### April 24, 2026 — JCPaid Affiliate Network
+
+**The Big Platform Insight:** Network effects win. Uber (driver+writer), Airbnb (host+guest). JCPaid needs AI agent NETWORK EFFECTS.
+
+**The JCPaid Affiliate Network:**
+- Agents = referral partners
+- Find businesses that need AI workers → get them on JCPaid → earn 20% recurring for life
+- Recruiter with 10 clients × $300 MRR = $600/month passive
+- Affiliate does the selling. We don't have to.
+- They have relationships with businesses we can't reach.
+
+**Key insight:** Businesses need to TRUST someone before buying. That's the affiliate. We give them AI tools + commission.
