@@ -254,3 +254,24 @@ This validates our JCPaid positioning: AI as JOB CREATOR, not replacer.
 
 **Files created:** `brain/AGENT_PLANNING_ARCHITECTURE.md` (synced to GitHub)
 **Status:** Normal operations resumed
+
+### April 26, 2026 — AI Planning Framework Integrated
+
+**Source:** arXiv:2603.12710 — maps LLM agent planning to classic search algorithms
+
+**3 strategies implemented:**
+- Step-by-Step (BFS) — 38% success, human-aligned
+- Tree Search (Best-First) — moderate reliability, value-function dependent
+- Full-Plan-in-Advance (DFS) — 89% element accuracy, best for production
+
+**Key insight:** "Misread intent → wrong goal" is #1 failure mode. Solved with Guardian Gate.
+
+**Files created:**
+- brain/AGENT_PLANNING_ARCHITECTURE.md — full integration plan
+- brain/SOLOMON_GUARDIAN.md — goal validation gate pattern
+
+**Changes:**
+- Services.md — added "Agent Planning Architecture" section
+- Solomon Bus now uses Full-Plan-in-Advance for well-defined jobs
+- 5 Quality Metrics added to Guardian: Recovery Rate, Trajectory Efficiency, Plan Coherence, Action Validity, Goal Alignment
+- Plan-as-External-Memory pattern for context drift prevention
