@@ -84,6 +84,8 @@ Deploy when validated
 
 ## The Observation Layer
 
+*Updated May 7, 2026: UI-TARS Desktop added to stack.*
+
 ### How OSagnent Watches
 
 ```
