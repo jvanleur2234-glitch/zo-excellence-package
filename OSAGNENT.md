@@ -30,6 +30,7 @@ OSagnent = holaOS (base OS layer)
         + DeepSwarm (parallel learning)
         + JCPaid Bus (fleet management)
         + Kill Switch (budget enforcement)
+        + TinyFish (web intelligence)
 ```
 
 ## The Observation Pipeline
