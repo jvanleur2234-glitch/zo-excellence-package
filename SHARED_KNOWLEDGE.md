@@ -275,3 +275,36 @@ This validates our JCPaid positioning: AI as JOB CREATOR, not replacer.
 - Solomon Bus now uses Full-Plan-in-Advance for well-defined jobs
 - 5 Quality Metrics added to Guardian: Recovery Rate, Trajectory Efficiency, Plan Coherence, Action Validity, Goal Alignment
 - Plan-as-External-Memory pattern for context drift prevention
+## OSagnent Build (2026-05-13)
+
+### What We Built
+- OSagnent workspace at /home/workspace/osagnent/
+- TinyFish skill for free model access (Qwen 3.6B Plus, OwlAlpha)
+- Bot detection for Telegram
+- JCPaid Bus fleet dispatcher (TypeScript)
+- OSagnent agent with free/premium model routing
+
+### Files Created
+- skills/osagnent-tinyskills/SKILL.md — TinyFish API integration
+- agents/osagnent-agent.ts — Main agent
+- bus/dispatcher.ts — Fleet dispatch
+- config.json — Model registry + pricing ($9.99/$19.99/$49.99)
+- AGENTS.md — Updated build status
+
+### Architecture
+```
+OSagnent
+├── skills/ (TinyFish, bot detect, observe, voice, auto-learn)
+├── agents/ (osagnent-agent.ts)
+├── bus/ (dispatcher.ts)
+└── config.json (model registry + pricing)
+```
+
+### Competition
+- HermesOS charges $9.99-$19.99/mo with crypto
+- OSagnent wins on here.now memory (permanent 10GB vs session-only)
+
+### Next Steps
+1. Get TinyFish API key from accounts.tinyfish.ai
+2. Connect here.now API for 10GB permanent memory
+3. Test observe layer with real tasks
