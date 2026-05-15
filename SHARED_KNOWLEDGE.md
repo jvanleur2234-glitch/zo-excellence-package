@@ -1,8 +1,38 @@
 # SHARED KNOWLEDGE — JCPaid / Solomon OS
 
-*Last updated: April 24, 2026*
+*Last updated: May 14, 2026*
 
 ## What We Decided
+
+### May 14, 2026 — /goal FORGE + JCPaid Stack Complete
+
+**RD Report:** /goal Autonomous Loop command — Claude Code + Codex + Hermes native. FORGE complete. JCPaid now has autonomous task loops.
+
+**JCPaid Stack (Final):**
+```
+├── here.now        → 10GB permanent memory per client
+├── Solomon Bus     → Fleet dispatch + inter-agent comms
+├── The Agency      → 147 AI agents (ISCP pattern adopted)
+├── Hermes          → 1,223 skills execution
+├── AiToEarn        → Cross-platform content distribution
+├── osagnent-vault  → Print-on-demand AI design pipeline
+└── /goal Loop      → Autonomous agent execution [NEW]
+```
+
+**What Was Built:**
+- `jcpaid-bus/` — SQLite-based inter-agent dispatch + /goal skill + hash-chained receipts
+- `/goal` skill: `skills/goal_skill.py` — parses `/goal [task] until [end_state] without [constraints]`
+- JCPaid personas: Innovator (captain), Closer (sales), Support (research), Admin (ops)
+- Competitive position: JCPaid vs HermesOS ($9.99-$19.99/mo) — we win on here.now memory + /goal autonomy
+
+**First Client:** Jon at EZ Heating & Cooling (605-940-0650) — warm lead, $299/mo SEO + leads pitch
+
+**Unblocked:**
+- Printify API key needed to go live on POD business
+- AiToEarn docker deploy ready on Zo server
+- /goal tested and working: `python skills/goal_skill.py start --text "/goal research EZ Heating..."`
+
+---
 
 ### April 23, 2026 — JCPaid Takes Shape
 
