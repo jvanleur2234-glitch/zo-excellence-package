@@ -23,7 +23,6 @@ All agents read from `/home/workspace/MegaPlan/`:
 - `HERMES_CAPABILITIES.md` — Hermes-specific capabilities
 - `SESSION_SUMMARY.md` — latest session notes
 - `NORTH_STAR.md` — core purpose and mission (THE MOST IMPORTANT FILE)
-- `ARENA_AI.md` — 🚨 ALL HANDS PROJECT — Arena.ai voting, capture pipeline, ranking engine, and AI Model Selector business
 
 ## RUSSELL TUNA BOT
 - **Telegram**: t.me/RussellTunaBot
