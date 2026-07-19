@@ -386,3 +386,6 @@ Sent a concise Telegram status report to Joseph. The requested April 5 session s
 - Ollama was unavailable at `127.0.0.1:11434`, so `deliverable_a_russell_intelligence.py` was skipped as instructed; Russell Tuna intelligence delivery did not run.
 - Ran `deliverable_c_content_pipeline.py`: completed but generated 0 viral posts and could not reach Ollama or MoneyPrinterTurbo (`Cannot assign requested address`).
 - Full output was logged to `/tmp/ai-news-cron.log`. Known scraper warnings included the VentureBeat feed redirect and missing `browser_use` module fallback.
+
+### July 19, 2026 — Russell Tuna travel API reminder
+- Sent Joseph a Telegram reminder to add either `TRAVELPAYOUTS_API_KEY` or `AMADEUS_CLIENT_ID` + `AMADEUS_CLIENT_SECRET` in Zo Settings > Advanced so Russell Tuna can perform live flight/hotel searches.
