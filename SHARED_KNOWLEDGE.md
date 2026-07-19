@@ -389,3 +389,13 @@ Sent a concise Telegram status report to Joseph. The requested April 5 session s
 
 ### July 19, 2026 — Russell Tuna travel API reminder
 - Sent Joseph a Telegram reminder to add either `TRAVELPAYOUTS_API_KEY` or `AMADEUS_CLIENT_ID` + `AMADEUS_CLIENT_SECRET` in Zo Settings > Advanced so Russell Tuna can perform live flight/hotel searches.
+
+### July 19, 2026 — Sunday Self-Review
+
+- Reviewed Telegram summaries for July 15–19, job logs, cadence automations, and recent zo-foam failures.
+- Repaired `.agent/jobs/job-runner.sh`: fixed invalid pending-glob syntax and empty-directory handling with `nullglob`; restored executable permission and verified with `bash -n` plus a smoke-test job.
+- Quarantined stale April 27 job `job_1777321162272_zh1xu1162272_zh1xu93fyb` instead of executing its obsolete command.
+- Removed duplicate `queue:` rules, retaining the analyze-first `/rnd` behavior.
+- Added a Sunday review rule to check runner health, quarantine aged jobs, and flag stale cadence agents.
+- Updated `AGENTS.md` and logged the failure/repair in `zo-foam/dumps/by-type/experiments/failure/2026-07-19-job-runner-repair.md`.
+- Open issues: Ollama/MoneyPrinterTurbo downstream delivery, repeated Arena2API missing-file reports, stale `ACTIVE_CONTEXT.md`, and no daily cadence watchdog.
