@@ -399,3 +399,10 @@ Sent a concise Telegram status report to Joseph. The requested April 5 session s
 - Added a Sunday review rule to check runner health, quarantine aged jobs, and flag stale cadence agents.
 - Updated `AGENTS.md` and logged the failure/repair in `zo-foam/dumps/by-type/experiments/failure/2026-07-19-job-runner-repair.md`.
 - Open issues: Ollama/MoneyPrinterTurbo downstream delivery, repeated Arena2API missing-file reports, stale `ACTIVE_CONTEXT.md`, and no daily cadence watchdog.
+
+### July 19, 2026 — Sunday Self-Review
+- Reviewed Telegram summaries from July 15–19, job logs, and recent zo-foam failures.
+- Repaired `.agent/jobs/job-runner.sh` (invalid glob redirection and empty-glob handling), restarted it, and verified a smoke-test job completed.
+- Quarantined the obsolete April 27 `maigret` job; added a standing Sunday rule for runner health, stale-job quarantine, and cadence-agent freshness.
+- Consolidated duplicate `queue:` rules, retaining the analyze-first R&D behavior.
+- Open issues remain: Ollama/MoneyPrinterTurbo downstream failures, repeated Arena2API reports against missing files, stale ACTIVE_CONTEXT.md, and missing recall helpers.
