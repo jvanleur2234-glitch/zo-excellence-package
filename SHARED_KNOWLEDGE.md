@@ -406,3 +406,10 @@ Sent a concise Telegram status report to Joseph. The requested April 5 session s
 - Quarantined the obsolete April 27 `maigret` job; added a standing Sunday rule for runner health, stale-job quarantine, and cadence-agent freshness.
 - Consolidated duplicate `queue:` rules, retaining the analyze-first R&D behavior.
 - Open issues remain: Ollama/MoneyPrinterTurbo downstream failures, repeated Arena2API reports against missing files, stale ACTIVE_CONTEXT.md, and missing recall helpers.
+
+### July 20, 2026 — Arena2API Morning Status
+
+- Sent Joseph a concise Telegram report. The requested April 5 session summary, Arena2API brain document, ARENA_AI plan, and `/home/workspace/arena2api/` directory remain missing, so implementation status could not be verified.
+- Reported the known Cloudflare + reCAPTCHA Enterprise v3 blocker and recommended restoring/recreating the project and testing before paying for solver calls.
+- Recall helpers `auto_summary.py` and `summarize_session.sh` remain missing or unverified.
+
