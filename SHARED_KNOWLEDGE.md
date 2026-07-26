@@ -498,3 +498,7 @@ The scheduled morning report confirmed that the requested April 5 Telegram summa
 - Pipeline log: `/tmp/ai-news-cron.log`.
 - Non-fatal collection issues: VentureBeat RSS returned HTTP 308, Hacker News RSS failed, and the browser-use X scraper import was broken; fallback collection still completed.
 Scheduled reminder sent via Telegram: return to Tier 1 business ideas and Dog Co-Parent App; inspect rankings and app plan; SESSION_SUMMARY.md was missing.
+
+### July 26, 2026 — Russell Tuna Travel API Reminder
+- Sent Joseph a Telegram reminder to configure live travel search credentials for Russell Tuna.
+- Accepted setup paths: `TRAVELPAYOUTS_API_KEY`, or both `AMADEUS_CLIENT_ID` and `AMADEUS_CLIENT_SECRET` in Zo Settings > Advanced.
