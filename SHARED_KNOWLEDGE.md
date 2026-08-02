@@ -558,3 +558,7 @@ Sent Joseph a Telegram reminder to return to the six ranked Tier 1 business idea
 - Workspace guidance says Arena2API was intentionally removed on July 15, 2026; reported the project as retired/absent and recommended pausing or retiring the stale daily status automation.
 - Recall helpers `auto_summary.py` and `summarize_session.sh` remain missing or unverified.
 - Saved the redacted session summary at `solomon-vault/raw/telegram_SUMMARY_2026-08-02.md`.
+### August 2, 2026 — Russell Tuna travel API reminder
+
+- Sent Joseph the scheduled Telegram reminder to add either `TRAVELPAYOUTS_API_KEY` or `AMADEUS_CLIENT_ID` + `AMADEUS_CLIENT_SECRET` in Settings > Advanced so Russell Tuna can perform live flight and hotel searches.
+- No code was changed and no secrets were recorded.
