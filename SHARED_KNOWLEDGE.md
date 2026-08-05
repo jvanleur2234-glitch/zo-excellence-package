@@ -583,3 +583,7 @@ Sent Joseph a Telegram reminder to return to the six ranked Tier 1 business idea
 - Verified `solomon-vault/brain/Arena2API.md`, `/home/workspace/arena2api/`, and `MegaPlan/ARENA_AI.md` are absent; reported Arena2API as removed/retired with no current files found.
 - Verified `auto_summary.py` and `summarize_session.sh` are absent; reported Recall System as In Progress.
 - Current business priority remains the HVAC Lead Machine: call Jon at EZ Heating & Cooling, then contact five more HVAC shops if needed.
+
+### August 5, 2026 — Tier 1 Business-Idea Reminder
+
+Sent Joseph a Telegram reminder to revisit the six ranked Tier 1 ideas and the $4.99/month Dog Co-Parent App plan, then choose 1–2 to execute. Verified sources are `/home/workspace/ideas/MASTER_BUSINESS_RANKINGS.md` and `/home/workspace/ideas/DOG_COPARENT_APP.md`; `MegaPlan/SESSION_SUMMARY.md` is missing and was not referenced in the reminder.
