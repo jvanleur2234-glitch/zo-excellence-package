@@ -616,3 +616,10 @@ Sent Joseph a Telegram reminder to revisit the six ranked Tier 1 ideas and the $
 - Recall helper files `auto_summary.py` and `summarize_session.sh` are absent; Recall System remains In Progress.
 - Arena2API paths are absent; Arena2API is removed/retired and no current files were reported as built.
 - Sent Joseph a concise Telegram status report. Today's priorities: restore/check Ollama and the MoneyPrinterTurbo endpoint, rerun failed news-pipeline steps, and repair downstream Russell Tuna/social delivery.
+
+### 2026-08-07 — Tier 1 Business Ideas Reminder
+
+- Sent Joseph a Telegram reminder to revisit the six Tier 1 ideas — Subscription Trimmer, Fertility Supplement Content Machine, New Mom/APEX, AI UGC Video Machine, Lazy App Machine, and Local Lead Gen Arbitrage — plus the $4.99/month Dog Co-Parent App plan.
+- Asked him to choose 1–2 initiatives to execute.
+- Verified source documents: `/home/workspace/ideas/MASTER_BUSINESS_RANKINGS.md` and `/home/workspace/ideas/DOG_COPARENT_APP.md`.
+- Confirmed `MegaPlan/SESSION_SUMMARY.md` is missing; future reminders must not reference it.
