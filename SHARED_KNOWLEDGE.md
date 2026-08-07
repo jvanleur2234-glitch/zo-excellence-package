@@ -4,6 +4,14 @@
 
 ## What We Decided
 
+### 2026-08-07 — AI News Pipeline Run
+
+- Collection completed successfully: 30 items, 8 trending; brief at `ai-news-scraper/output/brief_20260807_1302.json`.
+- Ollama was unavailable, so Russell Tuna intelligence summarization was skipped as instructed.
+- Content pipeline completed but generated zero social posts; Ollama and MoneyPrinterTurbo returned network errors. The newest manifest is `ai-news-scraper/generated_posts/manifest_20260807_1302.json` with `count: 0`.
+- End-to-end delivery to Russell Tuna and social-pipeline remains incomplete and must not be reported as successful.
+
+
 ### 2026-08-06 — AI News Pipeline Run
 
 - Collection completed: 50 items, 12 trending; brief at `ai-news-scraper/output/brief_20260806_1301.json`.
